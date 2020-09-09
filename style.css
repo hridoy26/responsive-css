@@ -1,0 +1,575 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*................lest Start...........*/
+.header{
+    background:
+    rgb(253, 253, 253);
+    position: fixed;
+    border-bottom: 1px solid
+    #ddd;
+    padding: 6px 0px;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.header-mano{
+    width: 60%;
+}
+.header-logo{
+   width: 30%;
+}
+.lo img{
+    height: 49px;
+    float: left;
+    margin: 6px;
+}
+.lo{
+    text-decoration: none;
+    
+}
+.hri{
+    line-height: 62px;
+    color: #4a4a4a;
+    font-family: arial;
+    margin-left: 10px;
+}
+.mano{
+    
+}
+.header-botton{
+    width: 10%;
+}
+.mano{}
+.mano ul{
+    display: inline-block;
+}
+.mano ul li{
+    display: inline-block;
+}
+.mano ul li a {
+
+    display: block;
+    text-decoration: none;
+    padding: 19px 21px;
+    font-size: 18px;
+    font-family: arial;
+    color: #000;
+    
+}
+.mano ul li a:hover{
+   border-bottom: 2px solid blue;
+}
+
+.btton{
+    text-decoration: none;
+    color:blue;
+    font-family: arial;
+    border: 2px solid blue;
+    padding: 6px;
+    line-height: 59px;
+    border-radius: 7px;
+    transition: .4s;
+}
+.btton:hover{
+    background: blue;
+    color: #fff;
+}
+/*.................Drupdown Mano...............*/
+
+.mano ul li{
+    position: relative;
+}
+.mano ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    background: #fff;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+   transform: scaleY(0);
+   transform-origin: top center;
+}
+.mano ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    
+}
+
+/*..............banner...............*/
+
+.banner{
+    background-image:url(./img/banner.jpg);
+    background-position: center center;
+    padding: 131px;
+    background-size: cover;
+    color: #ffffff;
+    margin-top: 74px;
+}
+.banner p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.baner-botton{
+    
+}
+.baner-botton a{
+    display: inline-block;
+    background: #fff;
+    text-decoration: none;
+    padding: 6px;
+    margin: 3px;
+    border-radius: 5px;
+    color: #606060de;
+    font-family: arial;
+}
+.baner-botton a:hover{
+    background: blue;
+    color: #fff;
+}
+
+/*................video-section.................*/
+
+.video-section{
+    background: #eae5e9f2;
+    padding: 104px;
+}
+.video-text{
+    margin-left: 412px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.video-text h2{
+    font-size: 43px;
+}
+.video-text p{
+    font-size: 20px;
+    line-height: 31px;
+    color: gray;
+}
+
+/*................sarvice Scc...............*/
+
+.sarvice-section{
+    background: #fff;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.sarvice-item {
+    width: 313px;
+    float: left;
+    padding: 38px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    margin-left: 2%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    transition: .4s ;
+    overflow: hidden;
+}
+.sarvice-item:hover{
+    
+    color: rgb(54, 0, 250);
+    
+}
+.sarvice-text{
+    margin: 54px;
+}
+.sarvice-text h1 p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sarvice-item i{
+    height: 56px;
+    float: left;
+    color: blue;
+}
+.sarvice-item h3{
+    margin-left: 32px;
+}
+.sarvice-item p{
+    margin-left: 32px;
+    color: gray;
+}
+
+/*.......................priccing Table  CSS..........................*/
+.p-heading h1 span{
+    font-size: 14px;
+}
+.pricing-section{
+    background: #f7f9ff;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-heading{
+    border-bottom: 1px solid #ddd;
+    padding: 30px;
+    transition: .4s ;
+}
+.p-heading:hover{
+    background: rgb(68, 68, 243);
+    color: #fff;
+}
+.sarvice-text h2{}
+.pricing-table{}
+.pricing-table-item{
+    width: 30%;
+    margin-right: 2%;
+    background: #fff;
+}
+.p-content{
+    padding: 30px;
+}
+.p-content span{
+    margin-right: 39px;
+     color: blue;
+}
+.p-content ul{
+    list-style: none;
+}
+.p-content ul li{
+    margin: 30px 0;  
+    color: #767676;
+    font-size: 16px;
+}
+.pp-botton{
+    
+    background: #fff;
+    text-decoration: none;
+    padding: 11px;
+    margin: 37px 56px;
+    border-radius: 5px;
+    color: #606060de;
+    font-family: arial;
+    box-shadow: 1px 1px 19px 4px #ddd;
+    transition: .4s;
+    display: block;
+}
+.pp-botton:hover{
+    background: blue;
+    color: #fff;
+
+}
+
+
+/*...............team Mamber CSS..................*/
+.team-section {
+    padding: 30px;
+}
+.member img{
+    width: 100%;
+}
+.member{
+    width: 23%;
+    margin-right: 2%;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .2);
+
+}
+.member-text{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.member-text h4{
+    margin-bottom: 10px;
+}
+.member-text p{
+    font-size: 11px;
+    color: #686868;
+}
+.team-text h1{
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin-top: -36px;
+    margin-bottom: 26px;
+}
+.sub-text{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sub-text h4{
+    color: #9d9b9b;
+    font-size: 12px;
+    padding: 20px;
+}
+.sub-text h1{
+    font-size: 35px;
+    color: #262626de;    
+}
+.news-from{
+    padding: 30px;
+}
+.news-from input{
+    padding: 9px 15px;
+    margin-right: 10px;
+    transition: .3s;
+}
+.news-from input:focus{
+    box-shadow: 1px 1px 8px -1px blue;
+}
+.news-from a{
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 9px 44px;
+    color: #fff;
+    background: blue;
+    border-radius: 6px;
+    transition: .3s;
+}
+.news-from a:hover{
+    box-shadow: 1px 1px 10px -4px blue;
+    background: #fff;
+    color:black;
+
+}
+
+/*...............blog SCC................*/
+
+.blog-heading{}
+
+.b-heading{
+    width: 48%;
+}
+.b-heading h1{
+    line-height: 52px;
+    font-family: arial;
+    margin-left: 11px;
+}
+
+.b-text{
+    width: 48%
+}
+.b-text p{
+    font-family: arial;
+    color: #6a6a6a;
+}
+
+.blog-post{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.blog-post p{
+    color: #595959;
+    font-size: 17px;
+    line-height: 24px;
+}
+.blog-post h2{
+    margin-bottom: 7px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.blog-heading {
+    padding: 19px
+}
+.blog-post-item{
+    width: 48%;
+    padding: 7px;
+    box-shadow: 1px 1px 10px -4px #131313;
+}
+.blog-post-item{
+    width: 48%;
+    box-shadow: 1px 1px 10px -4px #131313;
+    overflow: hidden;
+}
+.blog-post-item img{
+    float: left;
+    width: 152px;
+    margin-right: 10px;
+}
+
+
+/*..............feeback Css............*/
+.testmunal-section{
+    background: #f7f9ff;
+    padding: 56px;
+}
+.application{
+    padding: 24px;
+}
+.application p{
+    font-size: 19px;
+    font-family: arial;
+}
+.application h3{
+    font-family: arial;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.featback-item{
+    width: 40%;
+    margin-left: -69px;
+    position: relative;
+
+}
+.featback-item p{
+    box-shadow: 1px 1px 13px -3px #4b78ff;
+    padding: 42px;
+    margin-left: 80px;
+
+}     
+.featback-item p span{
+    font-size: 138px;
+    position: absolute;
+    left: 147px;
+    bottom: 17px;
+    left: 110px;
+    opacity: 22.2%;
+} 
+.featback-item p img{
+    position: absolute;
+}  
+
+.featback-item i{
+    position: absolute;
+    bottom: -21px;
+    left: 222px;
+    font-size: 54px;
+    color: #f7f9ff;
+}
+
+.box-men{
+    margin-top: 30px;
+    font-family: arial;
+}
+.man-1{
+    width: 25%;
+    margin-left: 72px;
+    overflow: hidden;
+}
+.man-1 img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 26px;
+}
+.man-1 h3{
+    margin-top: 7px;
+}
+.man-1 p{
+    color: #717171;
+    font-size: 12px;
+}
+
+/*...................Contract Scetion................*/
+
+.contruct-section{
+    display: none;
+    width: 0;
+}
+.contruct-map{
+    width: 48%;
+    margin-top: 67px;
+}
+.contruct-form{
+    width: 48%;
+}
+.contruct-form h4{
+    font-family: arial;
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 45px;
+}
+.contruct-form p{
+    font-family: arial;
+    padding: 9px;
+    color: #4f4f4f;
+}
+
+.email{
+    width: 100%;
+    padding: 9px 15px;
+    margin: 10px;
+}
+.email:focus{
+    box-shadow: 1px 1px 8px -1px blue;
+}
+.name{
+    width: 45%;
+    padding: 9px 15px;
+    margin: 10px;
+}
+.name:focus{
+    box-shadow: 1px 1px 8px -1px blue;
+}
+.phone{
+    width: 45%;
+    padding: 9px 15px;
+    margin: 10px -44px;
+}
+.phone:focus{
+    box-shadow: 1px 1px 8px -1px blue;
+}
+.mess{
+    width: 515px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mess:focus{
+    box-shadow: 1px 1px 8px -1px blue;
+}
+.Submit-button{
+    background: blue;
+    width: 126px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 13px -3px #4b78ff;
+    color: #fff;
+    font-size: 20px;
+    transition: .3s;
+}
+.Submit-button:hover{
+    background: rgb(27, 27, 136);
+}
+.footer{
+    background: rgb(20, 15, 15);
+    color: #fff;
+    text-align: center;
+}
+
+
+
+

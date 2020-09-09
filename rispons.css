@@ -1,0 +1,174 @@
+@media (max-width:1150px) {
+    .header {
+        background: rgb(131, 185, 255);
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+    .video-text h2 {
+        font-size: 21px;
+    }
+    .video-text p {
+        font-size: 17px;
+    }
+}
+@media (max-width:1030px) {
+    .sarvice-text h1 {
+        font-size: 28px;
+    }
+    .sarvice-text p {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .sarvice-item {
+        width: 291px;
+    }
+}
+@media (max-width:942px) {
+    .sarvice-item {
+        width: 47%;
+    }
+}
+@media (max-width:912px) {
+    .mano ul li a {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+    .header-logo {
+        width: 28%;
+    }
+    .mano ul {
+        line-height: 34px;
+    }
+    .banner {
+        margin-top: 0;
+    }
+    .header {
+        position: relative;
+    }
+    .video.left {
+        width: 100%;
+    }
+    .video-text {
+        margin-left: 0;
+        width: 100%;
+    }
+    .video-section {
+        padding: 18px;
+    }
+    .video.left {
+        margin-top: 33px;
+    }
+    .pricing-table-item {
+        width: 100%;
+    }
+}
+@media (max-width:830px) {
+    .mano ul li a {
+        padding: 14px 9px;
+        font-size: 15px;
+    }
+    .header-mano {
+        width: 57%;
+    }
+    .header-botton {
+        width: 14%;
+    }
+    .mano span {
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .sarvice-item {
+        width: 95%;
+    }
+    .sarvice-text h1 {
+        font-size: 20px;
+    }
+    .sarvice-text p {
+        font-size: 15px;
+    }
+    .team-text h1 {
+        font-size: 30px;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 22px;
+    }
+}
+@media (max-width:750px) {
+    .banner h2 {
+        font-size: 36px;
+    }
+}
+@media (max-width:660px) {
+    .hri {
+        position: relative;
+        top: -21px;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lo img {
+        float: inherit;
+    }
+
+    .header-logo {
+        height: 61px;
+    }
+    .mano ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        display: none;
+    }
+    .mano span {
+        font-size: 26px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .header-mano {
+        width: 172%;
+    }
+    .header-botton {
+        width: 21%;
+    }
+    .header-botton {
+        width: 95px;
+        position: absolute;
+        right: 0;
+        top: 48px;
+    }
+    .mano span {
+        display: block;
+    }
+    .banner {
+        padding: 100px;
+    }
+    .banner h2 {
+        font-size: 36px;
+    }
+    
+}
+@media (max-width:506px) {
+    .banner h2 {
+        font-size: 27px;
+    }
+    .baner-botton a {
+        display: block;
+        margin: 6px;
+    }
+}
+@media (max-width:430px) {
+    .banner p {
+        font-size: 14px;
+    }
+    .banner h2 {
+        font-size: 20px;
+    }
+    .banner {
+        padding: 65px;
+    }
+}
